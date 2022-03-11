@@ -15,9 +15,38 @@ margin: 0 auto;
   float: left;
 }
 
+.float-right{
+  float: right;
+}
+
 .text-center{
   text-align: center;
 }
+
+.margin-center{
+  margin: 0 auto;
+}
+
+.w50{
+  width: 50%;
+}
+
+.w80{
+  width: 80%;
+}
+
+.w1-3{
+  width: calc(100% / 3 - 30px);
+}
+
+.h90{
+  height: calc(100% - 150px);
+}
+
+.col{
+  margin: 0 15px;
+}
+
 
 
 /* DEBUG */
@@ -31,6 +60,10 @@ border: 1px solid black;
   height: 100px;
 }
 
+.h200{
+  height: 200px;
+}
+
 .h300{
   height: 300px;
 }
@@ -39,5 +72,12 @@ border: 1px solid black;
   height: 500px;
 }
 
+.h900{
+  height: 900px;
+}
+
+.w30{
+  width: 30%;
+}
 
 /* /DEBUG */
