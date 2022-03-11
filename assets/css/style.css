@@ -1,5 +1,29 @@
 
 /* HEADER */
+
+header{
+position: fixed;
+top: 0;
+z-index: 999;
+width: 100%;
+}
+
+header div{
+  text-align: center;
+  line-height: 70px;
+}
+
+header div a{
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+header div a img{
+  vertical-align: middle;
+  
+}
+
+
 /* /HEADER */
 
 

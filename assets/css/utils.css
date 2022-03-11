@@ -11,6 +11,11 @@ margin: 0 auto;
   clear: both;
 }
 
+.h80{
+  height: 80px;
+}
+
+
 .float-left{
   float: left;
 }
@@ -61,6 +66,11 @@ margin: 0 auto;
   margin: 0 15px;
 }
 
+
+.button{
+  padding: 5px 15px;
+  background-color: rgb(18, 103, 251);
+}
 
 
 /* DEBUG */
