@@ -27,8 +27,18 @@ margin: 0 auto;
   margin: 0 auto;
 }
 
+.margin-10{
+  margin: 0 10px;
+}
+
+.margin-20{
+  margin: 0 20px;
+}
+
+
+
 .w50{
-  width: 50%;
+  width: calc(100% / 2 - 20px);
 }
 
 .w80{
@@ -37,6 +47,10 @@ margin: 0 auto;
 
 .w1-3{
   width: calc(100% / 3 - 30px);
+}
+
+.w1-5{
+  width: calc(100% / 5 - 40px);
 }
 
 .h90{
@@ -80,4 +94,8 @@ border: 1px solid black;
   width: 30%;
 }
 
+
+.h-pieno{
+  height: 100%;
+}
 /* /DEBUG */
