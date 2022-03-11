@@ -14,5 +14,11 @@ body{
   height: 80px;
 }
 
+h1{
+  font-size: 3rem;
+}
 
+a:hover{
+  text-decoration: underline;
+}
 

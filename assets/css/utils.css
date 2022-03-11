@@ -46,6 +46,14 @@ margin: 0 auto;
   width: calc(100% / 2 - 20px);
 }
 
+.w40{
+  width: calc(40% - 40px);
+}
+
+.w60{
+  width: 60%;
+}
+
 .w80{
   width: 80%;
 }
@@ -69,7 +77,8 @@ margin: 0 auto;
 
 .button{
   padding: 5px 15px;
-  background-color: rgb(18, 103, 251);
+  background-color: rgb(0, 97, 255);
+  color: white;
 }
 
 

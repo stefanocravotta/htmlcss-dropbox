@@ -6,16 +6,17 @@ position: fixed;
 top: 0;
 z-index: 999;
 width: 100%;
+background-color: white;
 }
 
 header div{
-  text-align: center;
   line-height: 70px;
 }
 
 header div a{
   text-decoration: none;
   padding: 0 10px;
+  color: black;
 }
 
 header div a img{
@@ -23,8 +24,41 @@ header div a img{
   
 }
 
+.nav-right{
+  text-align: right;
+  padding-right: 15px;
+}
+.nav-left{
+  padding-left: 15px;
+}
+
+
 
 /* /HEADER */
+
+/* JUMBOTRON */
+
+
+.jumbotron{
+  background-color: rgb(180, 208, 231);
+}
+
+.titolo{
+  padding: 20px 0;
+}
+
+.jumbotron div p{
+  padding: 20px 40px 20px 0;
+}
+
+.jumbotron img{
+  width: 100%;
+  padding-top: 40px;
+  transform: scale(1.2);
+}
+
+
+/* /JUMBOTRON */
 
 
 
