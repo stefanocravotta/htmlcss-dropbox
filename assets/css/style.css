@@ -10,7 +10,7 @@ background-color: white;
 }
 
 header div{
-  line-height: 70px;
+  line-height: 80px;
 }
 
 header div a{
@@ -18,10 +18,17 @@ header div a{
   padding: 0 10px;
   color: black;
 }
+header div a:hover{
+  text-decoration: underline;
+}
 
 header div a img{
   vertical-align: middle;
   
+}
+
+header .image:hover{
+  text-decoration: none;
 }
 
 .nav-right{
@@ -31,6 +38,8 @@ header div a img{
 .nav-left{
   padding-left: 15px;
 }
+
+
 
 
 
@@ -80,6 +89,12 @@ header div a img{
   display: inline-block;
 }
 
+.box-piani .col-bottom .top-box{
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
 .box-piani .col .top-box{
   text-align: center;
   border-bottom: 1px solid black;
@@ -98,10 +113,24 @@ header div a img{
   border-bottom: 1px solid black;
 }
 
+.col-left{
+  margin-left: 0;
+}
+
+.col-right{
+  margin-right: 0;
+}
+.col-center{
+  margin-left: 45px;
+}
 .col-bottom{
   margin-top: 25px;
-  width: calc(100% - 30px);
+  width: calc(100%);
+  border: 1px solid black;
+
 }
+
+
 
 
 
@@ -114,6 +143,7 @@ header div a img{
 
 .partner div img{
   width: 100%;
+  
 }
 
 .partner-text{
@@ -125,10 +155,12 @@ header div a img{
 }
 
 
+
+
 /* COLONNE BUSINESS */
 
 .box-business{
-  padding: 15px;
+  padding: 15px 0 50px 0;
 }
 
 .box-business img{
@@ -139,21 +171,130 @@ header div a img{
   margin-bottom: 20px;
 }
 
-.link{
-  margin-bottom: 30px;
-}
-
 
 
 /* /COLONNE BUSINESS */
 
-/* /MAIN */
 
+.link{
+  margin-bottom: 30px;
+}
+
+/* LOGO */
+
+.logo{
+  width: calc(100% / 4);
+}
+
+.logo-img{
+  position: relative;
+  height: 50%;
+}
+
+.logo-img .cont-img{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.logo-img img{
+  width: 100%;
+}
+
+.logo-text{
+  padding: 30px;
+}
+
+.logo-text img{
+  width: 20%;
+}
+
+.logo-text span{
+  width: 10%;
+  border-bottom: 1px solid grey;
+}
+
+.logo-text p{
+  margin-top: 30px;
+}
+
+
+.prova-gratuita{
+  background-color: rgb(180, 208, 231);
+  padding: 50px 0;
+}
+
+.prova-gratuita .button{
+  margin-top: 60px;
+}
+
+
+/* /LOGO */
+
+
+/* FAQ */
+
+.faq{
+  padding: 100px 0;
+}
+
+.faq .question{
+  border-bottom: 1px solid lightgrey;
+}
+
+.faq h3{
+  padding-bottom: 40px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.faq h5{
+  line-height: 90px;
+
+}
+
+.faq .fa-angle-down{
+  width: 450px;
+  text-align: right;
+  /* margin-right: 10px; */
+}
+
+
+.question:hover{
+  background-color: aqua;
+}
+
+/* /FAQ */
+
+
+/* /MAIN */
 
 
 /* FOOTER */
 
+
+
 .blocco{
   margin-bottom: 20px;
+}
+
+.blocco h3{
+  color: white;
+  padding: 30px 0;
+}
+
+.blocco ul li{
+  padding: 10px 0;
+}
+
+.blocco ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.language div{
+  border-top: 1px solid white;
 }
 /* /FOOTER */

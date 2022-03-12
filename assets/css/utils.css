@@ -81,8 +81,8 @@ margin: 0 auto;
 .w60{
   width: 60%;
 }
-.w80{
-  width: 80%;
+.w90{
+  width: 90%;
 }
 
 .w1-3{
@@ -100,6 +100,10 @@ margin: 0 auto;
 }
 
 .h90{
+  height: 90px;
+}
+
+.h90-2{
   height: calc(100% - 150px);
 }
 
@@ -107,7 +111,7 @@ margin: 0 auto;
 /* /ALTEZZE */
 
 .col{
-  margin: 0 15px;
+  /* margin: 0 20px; */
   border: 1px solid black;
 }
 
@@ -133,6 +137,51 @@ margin: 0 auto;
 }
 
 
+.underline{
+  text-decoration: underline;
+}
+
+
+/* COLOR */ 
+
+.green{
+  background-color: rgb(163, 210, 157);
+}
+
+.brown{
+  background-color: rgb(96, 11, 43);
+}
+
+.azure{
+  background-color: rgb(23, 148, 204);
+}
+
+.red{
+  background-color: rgb(252, 33, 41);
+}
+
+.red2{
+  background-color: rgb(210, 10, 39);
+}
+
+.azure2{
+  background-color: rgb(181, 208, 230);
+}
+
+.blue{
+  background-color: rgb(16, 47, 127);
+}
+
+.yellow{
+  background-color: rgb(254, 215, 69);
+}
+
+.grey{
+  background-color: rgb(236, 236, 236);
+}
+
+/* /COLOR */
+
 /* DEBUG */
 
 .debug{
@@ -154,6 +203,10 @@ border: 1px solid black;
 
 .h500{
   height: 500px;
+}
+
+.h600{
+  height: 600px;
 }
 
 .h900{
