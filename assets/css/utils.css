@@ -3,6 +3,7 @@
 .container{
 width: 80%;
 margin: 0 auto;
+max-width: 1300px;
 }
 
 .clearfix::after{
@@ -11,6 +12,8 @@ margin: 0 auto;
   clear: both;
 }
 
+
+/* FLOAT */
 
 .float-left{
   float: left;
@@ -81,6 +84,10 @@ margin: 0 auto;
 .w60{
   width: 60%;
 }
+.w80{
+  width: 80%;
+}
+
 .w90{
   width: 90%;
 }
@@ -95,6 +102,10 @@ margin: 0 auto;
 
 /* ALTEZZE */
 
+.h550{
+  height: 550px;
+}
+
 .h80{
   height: 80px;
 }
@@ -104,11 +115,11 @@ margin: 0 auto;
 }
 
 .h90-2{
-  height: calc(100% - 150px);
+  height: calc(100% - 100px);
 }
 
 
-/* /ALTEZZE */
+/* GENERAL */
 
 .col{
   /* margin: 0 20px; */
@@ -116,11 +127,6 @@ margin: 0 auto;
 }
 
 
-.button{
-  padding: 7px 15px;
-  background-color: rgb(0, 97, 255);
-  color: white;
-}
 
 .check-box{
   width: 13px;
@@ -136,10 +142,45 @@ margin: 0 auto;
   border: 4px solid rgb(0, 97, 255);
 }
 
+.text-decoration:hover{
+  text-decoration: none;
+}
 
 .underline{
   text-decoration: underline;
+  color: rgb(0, 97, 255);
 }
+
+
+/* BUTTON */
+
+
+.button{
+  padding: 7px 15px;
+  background-color: rgb(0, 97, 255);
+  color: white;
+}
+
+
+.btn-blu:hover{
+  background-color:rgba(0, 97, 255, 0.8);
+}
+
+.btn-white{
+  background-color: white;
+  color: black;
+
+}
+
+.btn-white.button-box:hover{
+  background-color: rgba(182, 182, 182, 0.2);
+
+}
+
+.btn-large{
+  padding: 7px 50px;
+}
+
 
 
 /* COLOR */ 
@@ -180,7 +221,10 @@ margin: 0 auto;
   background-color: rgb(236, 236, 236);
 }
 
-/* /COLOR */
+.light-grey{
+  color: rgba(0, 0, 0, .5);
+}
+
 
 /* DEBUG */
 
@@ -205,9 +249,7 @@ border: 1px solid black;
   height: 500px;
 }
 
-.h600{
-  height: 600px;
-}
+
 
 .h900{
   height: 900px;

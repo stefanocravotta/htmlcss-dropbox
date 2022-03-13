@@ -15,9 +15,17 @@ header div{
 
 header div a{
   text-decoration: none;
-  padding: 0 10px;
   color: black;
 }
+
+header .nav-left a{
+  margin-right: 30px;
+}
+
+header .nav-right a{
+  margin-left: 30px;
+}
+
 header div a:hover{
   text-decoration: underline;
 }
@@ -31,6 +39,15 @@ header .image:hover{
   text-decoration: none;
 }
 
+.text-decoration:hover a{
+  text-decoration: none;
+}
+
+.border-menu:hover{
+border-bottom: 2px solid black;
+}
+
+
 .nav-right{
   text-align: right;
   padding-right: 15px;
@@ -39,8 +56,44 @@ header .image:hover{
   padding-left: 15px;
 }
 
+/* DROPDOWN */
 
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown .dropbtn{
+  font-size: 16px;  
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: .8em;
+  line-height: 40px;
+}
+
+.dropdown-content a:hover{
+  background-color: rgba(182, 182, 182, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;}
 
 
 /* /HEADER */
@@ -49,7 +102,12 @@ header .image:hover{
 
 
 .jumbotron{
+  padding-top: 40px;
   background-color: rgb(180, 208, 231);
+}
+
+.box-jumbo{
+  max-width: 1300px;
 }
 
 .titolo{
@@ -57,14 +115,15 @@ header .image:hover{
 }
 
 .jumbotron div p{
-  padding: 20px 40px 20px 0;
+  padding: 20px 80px 40px 0;
+  line-height: 25px;
 }
 
 .jumbotron img{
   width: 100%;
-  padding-top: 40px;
-  transform: scale(1.2);
+  /* padding-top: 40px; */
 }
+
 
 
 /* /JUMBOTRON */
@@ -106,8 +165,9 @@ header .image:hover{
 
 .button-box{
   margin-top: 20px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
+
 
 .box-container .bordino{
   border-bottom: 1px solid black;
@@ -130,6 +190,9 @@ header .image:hover{
 
 }
 
+.partner div a{
+  border: 1px solid black;
+}
 
 
 
@@ -177,7 +240,7 @@ header .image:hover{
 
 
 .link{
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 /* LOGO */
@@ -223,7 +286,7 @@ header .image:hover{
 
 .prova-gratuita{
   background-color: rgb(180, 208, 231);
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
 .prova-gratuita .button{
@@ -255,9 +318,8 @@ header .image:hover{
 }
 
 .faq .fa-angle-down{
-  width: 450px;
+  width: 55%;
   text-align: right;
-  /* margin-right: 10px; */
 }
 
 
@@ -276,7 +338,7 @@ header .image:hover{
 
 
 .blocco{
-  margin-bottom: 20px;
+  padding-top: 50px;
 }
 
 .blocco h3{
@@ -289,12 +351,22 @@ header .image:hover{
 }
 
 .blocco ul li a{
-  text-decoration: none;
+  /* text-decoration: none; */
   color: white;
 }
 
 
-.language div{
+.language{
+  padding-top: 30px;
+  padding-right: 30px;
   border-top: 1px solid white;
+  color: white;
+  font-size: .7rem;
+
 }
+
+.fa-arrow-down{
+  font-size: 35px;
+}
+
 /* /FOOTER */

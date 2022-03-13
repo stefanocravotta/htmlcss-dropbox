@@ -15,27 +15,33 @@
 <body>
 
   <header class="h80 clearfix">
-    <div class="nav-left float-left">
+    <div class="nav-left float-left text-decoration">
       <a class="image" href="#">
         <img src="assets/img/logo-small.png" alt="">
       </a>
-      <a href="#">Perch&eacute; Dropbox?</a>
-      <a href="#">Funzioni</a>
-      <a href="#">Piani e prezzi</a>
+      <a class="border-menu inline-block" href="#">Perch&eacute; Dropbox?</a>
+      <a class="border-menu inline-block" href="#">Funzioni</a>
+      <a class="border-menu inline-block" href="#">Piani e prezzi</a>
     </div>
 
 
-    <div class="nav-right float-right">
-      <a href="#">Supporto</a>
-      <a href="#">Contatta l'ufficio vendite</a>
-      <a href="#">Accedi</a>
-      <a class="button" href="#">Inizia</a>
+    <div class="nav-right float-right text-decoration clearfix">
+      <div class="dropdown border-menu inline-block">
+        <button class="dropbtn inline-block">Supporto</button>
+          <div class="dropdown-content">
+            <a href="#">Centro assistenza</a>
+            <a href="#">Forum della community</a>
+          </div>
+      </div>
+      <a class="border-menu inline-block" href="#">Contatta l'ufficio vendite</a>
+      <a class="border-menu inline-block" href="#">Accedi</a>
+      <a class="button btn-blu text-decoration" href="#">Inizia</a>
     </div>
   </header>
 
   <section class="jumbotron">
 
-    <div class="box-jumbo h500 w80 margin-center">
+    <div class="box-jumbo h550 w80 margin-center">
       <div class="titolo">
         <h1>Tutto ci&oacute; che ti serve per il lavoro, in unico posto</h1>
       </div>
@@ -44,9 +50,9 @@
           <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. <br>
             Dropbox Business &eacute; pi&uacute; di uno spazio di archiviazione sicuro: &eacute; un modo intelligente e integratoper ottimizzare il flusso di lavoro esistente.
           </p>
-          <a href="#" class="button">Inizia la tua prova gratuita</a>
+          <a href="#" class="button btn-blu text-decoration">Inizia la tua prova gratuita</a>
           <p>Annulla in qualsiasi momento</p>
-          <span></span>
+          <span><i class="fa-solid fa-arrow-down"></i></span>
         </div>
 
         <div class="w60 float-left">
@@ -90,13 +96,14 @@
               <h3>Professional</h3>
               <span class="inline-block padding-10">19,99 &euro;</span>
               <br>
-              <span class="inline-block padding-10">/mese</span>
+              <span class="inline-block padding-10 light-grey">/mese</span>
               <ul class="padding-30">
                 <li class="padding-20">Utente</li>
                 <li class="padding-20">3 TB di spazio di archiviazione sicuro</li>
                 <li class="padding-20">Funzioni di produttivit&aacute; premium e condivisionefile semplice e sicura</li>
               </ul>
-              <a href="#" class="button">Prova gratis per 30 giorni</a>
+              <a href="#" class="button btn-blu text-decoration">Prova gratis per 30 giorni</a>
+              <br>
               <span class="bordino inline-block padding-30">oppure</span>
               <a href="#" class="underline">acquista ora</a>
               <!-- /sezione 1 -->
@@ -127,13 +134,14 @@
                   <h3>Professional</h3>
                   <span class="inline-block padding-10">19,99 &euro;</span>
                   <br>
-                  <span class="inline-block padding-10">/mese</span>
+                  <span class="inline-block padding-10 light-grey">/mese</span>
                   <ul class="padding-30">
                     <li class="padding-20">Utente</li>
                     <li class="padding-20">3 TB di spazio di archiviazione sicuro</li>
                     <li class="padding-20">Funzioni di produttivit&aacute; premium e condivisionefile semplice e sicura</li>
                   </ul>
-                  <a href="#" class="button">Prova gratis per 30 giorni</a>
+                  <a href="#" class="button btn-blu text-decoration">Prova gratis per 30 giorni</a>
+                  <br>
                   <span class="bordino inline-block padding-30">oppure</span>
                   <a href="#" class="underline">acquista ora</a>
                   <!-- /sezione 1 -->
@@ -164,13 +172,14 @@
                     <h3>Professional</h3>
                     <span class="inline-block padding-10">19,99 &euro;</span>
                     <br>
-                    <span class="inline-block padding-10">/mese</span>
+                    <span class="inline-block padding-10 light-grey">/mese</span>
                     <ul class="padding-30">
                       <li class="padding-20">Utente</li>
                       <li class="padding-20">3 TB di spazio di archiviazione sicuro</li>
                       <li class="padding-20">Funzioni di produttivit&aacute; premium e condivisionefile semplice e sicura</li>
                     </ul>
-                    <a href="#" class="button">Prova gratis per 30 giorni</a>
+                    <a href="#" class="button btn-blu text-decoration">Prova gratis per 30 giorni</a>
+                    <br>
                     <span class="bordino inline-block padding-30">oppure</span>
                     <a href="#" class="underline">acquista ora</a>
                     <!-- /sezione 1 -->
@@ -193,7 +202,7 @@
 
           <div class="top-box ">Singolo</div>
           <h3 class="inline-block padding-20-tot">Professional</h3>
-          <a href="#" class="button button-box inline block float-right ">Contatta l'ufficio vendite
+          <a href="#" class="button button-box btn-blu text-decoration btn-large inline block float-right ">Contatta l'ufficio vendite
           </a>
           <br>
           <h5 class="inline-block padding-20-middle">Contatta l'ufficio vendite</h5>
@@ -221,7 +230,7 @@
       <div class="partner-text w50-2 float-right">
         <h3>Entra in contatto con un partner Dropbox</h3>
         <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui</p>
-        <a href="#" class="button button-box inline-block">Trova un partner</a>
+        <a href="#" class="button button-box inline-block btn-white text-decoration">Trova un partner</a>
       </div>
 
     </section>
@@ -288,7 +297,8 @@
 
     <section class="">
 
-      <div class="h300 clearfix">
+      <div class="h500 clearfix"> 
+        <!-- FARE ANCORA HOVER SULLE IMG -->
 
         <!-- LEFT -->
 
@@ -375,7 +385,7 @@
           <h2 class="inline-block">Porta Dropbox Business 
             <br>
           nella tua azienda.</h2>
-          <a href="#" class="button float-right inline-block">Inizia la tua prova gratuita</a>
+          <a href="#" class="button float-right inline-block btn-white text-decoration btn-large">Inizia la tua prova gratuita</a>
         </div>
       </div>
 
@@ -387,6 +397,8 @@
 
     <section class="container">
 
+      <!-- MENU A TENDINA -->
+      
       <div class="faq">
 
         <h3>Domande frequenti</h3>
@@ -421,7 +433,7 @@
 
   <footer class="h500">
 
-    <div class="link-utili w90 debug h-pieno margin-center clearfix">
+    <div class="link-utili w90 h-pieno margin-center clearfix">
 
       <div class="blocco w1-5 h90-2 float-left margin-20">
         <ul>
@@ -473,8 +485,8 @@
           <li><a href="#">Funzioni</a></li>
         </ul>
       </div>
-      <div class="language h100 debug float-left margin-20">
-        <div>Italiano</div>
+      <div class="language float-left margin-20">
+        <div><i class="fa-solid fa-earth-americas"></i> Italiano <i class="fa-solid fa-caret-up"></i></div>
       </div>
 
     </div>
