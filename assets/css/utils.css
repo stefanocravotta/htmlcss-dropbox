@@ -70,16 +70,23 @@ max-width: 1300px;
 
 /* LARGHEZZE */
 
+.w30{
+  width: 30%;
+}
+
+.w40{
+  width: 40%;
+}
+.w40-2{
+  width: calc(40% - 40px);
+}
+
 .w-50{
   width: 50%;
 }
 
 .w50-2{
   width: calc(100% / 2 - 20px);
-}
-
-.w40{
-  width: calc(40% - 40px);
 }
 .w60{
   width: 60%;
@@ -102,10 +109,6 @@ max-width: 1300px;
 
 /* ALTEZZE */
 
-.h550{
-  height: 550px;
-}
-
 .h80{
   height: 80px;
 }
@@ -117,13 +120,24 @@ max-width: 1300px;
 .h90-2{
   height: calc(100% - 100px);
 }
+.h400{
+  height: 400px;
+}
+
+.h600{
+  height: 600px;
+}
+
+.h1200{
+  height: 1200px;
+}
+
 
 
 /* GENERAL */
 
 .col{
-  /* margin: 0 20px; */
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, .2);
 }
 
 
@@ -249,7 +263,9 @@ border: 1px solid black;
   height: 500px;
 }
 
-
+.h750{
+  height: 750px;
+}
 
 .h900{
   height: 900px;

@@ -22,7 +22,7 @@ header .nav-left a{
   margin-right: 30px;
 }
 
-header .nav-right a{
+header .nav-right>a{
   margin-left: 30px;
 }
 
@@ -86,6 +86,7 @@ border-bottom: 2px solid black;
   text-align: left;
   font-size: .8em;
   line-height: 40px;
+  padding-left: 5px;
 }
 
 .dropdown-content a:hover{
@@ -94,6 +95,10 @@ border-bottom: 2px solid black;
 
 .dropdown:hover .dropdown-content {
   display: block;}
+
+
+
+
 
 
 /* /HEADER */
@@ -121,7 +126,7 @@ border-bottom: 2px solid black;
 
 .jumbotron img{
   width: 100%;
-  /* padding-top: 40px; */
+  padding-top: 70px;
 }
 
 
@@ -150,13 +155,13 @@ border-bottom: 2px solid black;
 
 .box-piani .col-bottom .top-box{
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
   padding: 10px 0;
 }
 
 .box-piani .col .top-box{
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
   padding: 10px 0;
 }
 .box-piani .box-container{
@@ -170,7 +175,7 @@ border-bottom: 2px solid black;
 
 
 .box-container .bordino{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .col-left{
@@ -185,8 +190,8 @@ border-bottom: 2px solid black;
 }
 .col-bottom{
   margin-top: 25px;
-  width: calc(100%);
-  border: 1px solid black;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.2);
 
 }
 
@@ -194,6 +199,10 @@ border-bottom: 2px solid black;
   border: 1px solid black;
 }
 
+.section2 li::before{
+  content: "\2714  ";
+  color: rgb(0, 97, 255);
+}
 
 
 
@@ -234,6 +243,11 @@ border-bottom: 2px solid black;
   margin-bottom: 20px;
 }
 
+.box-business a{
+  text-decoration: underline;
+  color: black;
+}
+
 
 
 /* /COLONNE BUSINESS */
@@ -245,9 +259,6 @@ border-bottom: 2px solid black;
 
 /* LOGO */
 
-.logo{
-  width: calc(100% / 4);
-}
 
 .logo-img{
   position: relative;
@@ -268,6 +279,7 @@ border-bottom: 2px solid black;
 
 .logo-text{
   padding: 30px;
+  overflow: scroll;
 }
 
 .logo-text img{
@@ -275,12 +287,14 @@ border-bottom: 2px solid black;
 }
 
 .logo-text span{
-  width: 10%;
-  border-bottom: 1px solid grey;
+  width: 7%;
+  border-bottom: 1px solid rgba(182, 182, 182, 0.5);
 }
 
 .logo-text p{
   margin-top: 30px;
+  line-height: 25px;
+  padding-bottom: 30px;
 }
 
 
@@ -291,6 +305,10 @@ border-bottom: 2px solid black;
 
 .prova-gratuita .button{
   margin-top: 60px;
+}
+
+.prova-gratuita h2{
+  color: rgb(96, 11, 43);
 }
 
 
@@ -305,6 +323,7 @@ border-bottom: 2px solid black;
 
 .faq .question{
   border-bottom: 1px solid lightgrey;
+  
 }
 
 .faq h3{
@@ -317,14 +336,24 @@ border-bottom: 2px solid black;
 
 }
 
-.faq .fa-angle-down{
-  width: 55%;
-  text-align: right;
+
+.faq h5:hover{
 }
 
+.faq .angle{
+  line-height: 90px;
+  margin-right: 20px;
+}
 
-.question:hover{
-  background-color: aqua;
+.question:hover .fa-angle-down{
+  display: none;
+}
+
+.fa-angle-up{
+  display: none;
+}
+.question:hover .fa-angle-up{
+  display: inline-block;
 }
 
 /* /FAQ */
