@@ -184,7 +184,7 @@ ul li .margin-neg{
   margin-left: -20px;
 }
 
-.top-col li:last-child {
+.top-col li{
   margin-left: 20px;
 }
 
