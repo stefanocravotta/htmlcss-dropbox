@@ -133,6 +133,16 @@ max-width: 1300px;
 }
 
 
+.w30vw{
+  width: 30vw;
+}
+.w40vw{
+  width: 39vw;
+}
+
+.w25vw{
+  width: 15vw;
+}
 
 /* GENERAL */
 

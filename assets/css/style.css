@@ -260,6 +260,10 @@ border-bottom: 2px solid black;
 /* LOGO */
 
 
+.box-logo{
+  height: 50vh;
+}
+
 .logo-img{
   position: relative;
   height: 50%;
@@ -323,7 +327,7 @@ border-bottom: 2px solid black;
 
 .faq .question{
   border-bottom: 1px solid lightgrey;
-  
+  padding: 35px;
 }
 
 .faq h3{
@@ -332,13 +336,13 @@ border-bottom: 2px solid black;
 }
 
 .faq h5{
-  line-height: 90px;
-
+  display: inline-block;
+  max-width: 70%;
 }
 
 
 .faq .angle{
-  line-height: 90px;
+  /* line-height: 90px; */
   margin-right: 20px;
 }
 
@@ -352,6 +356,17 @@ border-bottom: 2px solid black;
 .question:hover .fa-angle-up{
   display: inline-block;
 }
+
+.scomparsa{
+  display: none;
+  color: rgba(182, 182, 182, 0.9);
+  padding-top: 35px;
+}
+
+.question:hover .scomparsa{
+display: block;
+}
+
 
 /* /FAQ */
 
