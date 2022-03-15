@@ -47,7 +47,6 @@ header .image:hover{
 border-bottom: 2px solid black;
 }
 
-
 .nav-right{
   text-align: right;
   padding-right: 15px;
@@ -86,7 +85,7 @@ border-bottom: 2px solid black;
   text-align: left;
   font-size: .8em;
   line-height: 40px;
-  padding-left: 5px;
+  padding: 0 10px;
 }
 
 .dropdown-content a:hover{
@@ -95,11 +94,6 @@ border-bottom: 2px solid black;
 
 .dropdown:hover .dropdown-content {
   display: block;}
-
-
-
-
-
 
 /* /HEADER */
 
@@ -129,19 +123,11 @@ border-bottom: 2px solid black;
   padding-top: 70px;
 }
 
-
-
 /* /JUMBOTRON */
-
-
-
-
 
 /* MAIN */
 
-
 /* TABELLA PIANI */
-
 
 .titoloh2{
   margin-top: 130px;
@@ -164,15 +150,10 @@ border-bottom: 2px solid black;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   padding: 10px 0;
 }
+
 .box-piani .box-container{
   padding: 30px;
 }
-
-.button-box{
-  margin-top: 20px;
-  margin-right: 20px;
-}
-
 
 .box-container .bordino{
   border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -199,15 +180,24 @@ border-bottom: 2px solid black;
   border: 1px solid black;
 }
 
-.section2 li::before{
-  content: "\2714  ";
-  color: rgb(0, 97, 255);
+ul li .margin-neg{
+  margin-left: -20px;
 }
 
+.top-col li:last-child {
+  margin-left: 20px;
+}
 
+ul.section2 li{
+  margin-left: 20px;
+}
 
+.fa-check{
+  color: rgb(0, 87, 255);
+}
 
 /* /TABELLA PIANI */
+
 
 .partner{
   margin-top: 50px;
@@ -222,10 +212,12 @@ border-bottom: 2px solid black;
   padding: 30px 0 0px 60px;
 }
 
+.partner-text h3{
+  padding-bottom:30px ;
+}
 .partner-text p{
   line-height: 30px;
 }
-
 
 
 
@@ -248,10 +240,7 @@ border-bottom: 2px solid black;
   color: black;
 }
 
-
-
 /* /COLONNE BUSINESS */
-
 
 .link{
   margin-bottom: 100px;
@@ -259,14 +248,9 @@ border-bottom: 2px solid black;
 
 /* LOGO */
 
-
-.box-logo{
-  height: 50vh;
-}
-
 .logo-img{
   position: relative;
-  height: 50%;
+  height: 15vw;
 }
 
 .logo-img .cont-img{
@@ -279,11 +263,12 @@ border-bottom: 2px solid black;
 
 .logo-img img{
   width: 100%;
+  filter:invert(1);
 }
 
 .logo-text{
   padding: 30px;
-  overflow: scroll;
+  overflow-y: auto;
 }
 
 .logo-text img{
@@ -301,6 +286,9 @@ border-bottom: 2px solid black;
   padding-bottom: 30px;
 }
 
+.logo-img:active{
+  border: 15px solid rgba(182, 182, 182, 0.5);
+}
 
 .prova-gratuita{
   background-color: rgb(180, 208, 231);
@@ -314,7 +302,6 @@ border-bottom: 2px solid black;
 .prova-gratuita h2{
   color: rgb(96, 11, 43);
 }
-
 
 /* /LOGO */
 
@@ -340,9 +327,7 @@ border-bottom: 2px solid black;
   max-width: 70%;
 }
 
-
 .faq .angle{
-  /* line-height: 90px; */
   margin-right: 20px;
 }
 
@@ -359,12 +344,18 @@ border-bottom: 2px solid black;
 
 .scomparsa{
   display: none;
-  color: rgba(182, 182, 182, 0.9);
+  font-weight: normal;
+  color: rgb(110, 108, 108, .7);
   padding-top: 35px;
 }
 
 .question:hover .scomparsa{
 display: block;
+}
+
+span.scomparsa a{
+  text-decoration: underline;
+  color: rgb(110, 108, 108, .7);
 }
 
 
@@ -375,8 +366,6 @@ display: block;
 
 
 /* FOOTER */
-
-
 
 .blocco{
   padding-top: 50px;
@@ -392,10 +381,8 @@ display: block;
 }
 
 .blocco ul li a{
-  /* text-decoration: none; */
   color: white;
 }
-
 
 .language{
   padding-top: 30px;

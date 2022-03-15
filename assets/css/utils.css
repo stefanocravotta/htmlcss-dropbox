@@ -13,6 +13,15 @@ max-width: 1300px;
 }
 
 
+
+.text-center{
+  text-align: center;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
 /* FLOAT */
 
 .float-left{
@@ -23,23 +32,11 @@ max-width: 1300px;
   float: right;
 }
 
-.text-center{
-  text-align: center;
-}
-
-.inline-block{
-  display: inline-block;
-}
-
 /* MARGIN */
 
 
 .margin-center{
   margin: 0 auto;
-}
-
-.margin-10{
-  margin: 0 10px;
 }
 
 .margin-20{
@@ -70,13 +67,6 @@ max-width: 1300px;
 
 /* LARGHEZZE */
 
-.w30{
-  width: 30%;
-}
-
-.w40{
-  width: 40%;
-}
 .w40-2{
   width: calc(40% - 40px);
 }
@@ -113,15 +103,12 @@ max-width: 1300px;
   height: 80px;
 }
 
-.h90{
-  height: 90px;
-}
-
 .h90-2{
   height: calc(100% - 100px);
 }
-.h400{
-  height: 400px;
+
+.h500{
+  height: 500px;
 }
 
 .h600{
@@ -132,15 +119,27 @@ max-width: 1300px;
   height: 1200px;
 }
 
+.h-pieno{
+  height: 100%;
+}
+
+/* VH E VW */
+
+
+.h30vw{
+  height: 30vw;
+}
 
 .w30vw{
   width: 30vw;
 }
+
 .w40vw{
-  width: 39vw;
+  width: calc(40vw - 16.9px);
+  /* NON MI E' CHIARO PERCHE' .... */
 }
 
-.w25vw{
+.w15vw{
   width: 15vw;
 }
 
@@ -149,7 +148,6 @@ max-width: 1300px;
 .col{
   border: 1px solid rgba(0, 0, 0, .2);
 }
-
 
 
 .check-box{
@@ -185,6 +183,10 @@ max-width: 1300px;
   color: white;
 }
 
+.button-box{
+  margin-top: 20px;
+  margin-right: 20px;
+}
 
 .btn-blu:hover{
   background-color:rgba(0, 97, 255, 0.8);
@@ -197,7 +199,7 @@ max-width: 1300px;
 }
 
 .btn-white.button-box:hover{
-  background-color: rgba(182, 182, 182, 0.2);
+  background-color: rgba(182, 182, 182, 0.8);
 
 }
 
@@ -252,7 +254,7 @@ max-width: 1300px;
 
 /* DEBUG */
 
-.debug{
+/* .debug{
 background-color: rgba(255, 0, 0, .3);
 border: 1px solid black;
 }
@@ -269,24 +271,12 @@ border: 1px solid black;
   height: 300px;
 }
 
-.h500{
-  height: 500px;
-}
-
 .h750{
   height: 750px;
 }
 
 .h900{
   height: 900px;
-}
+} */
 
-.w40{
-  width: 40%;
-}
-
-
-.h-pieno{
-  height: 100%;
-}
 /* /DEBUG */
